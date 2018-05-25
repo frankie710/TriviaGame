@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lord of the Rings Trivia</title>
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1><b>Lord of the Rings Trivia</b></h1>
+        </header>
+        <br>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-12>">
+                    <button class = "button" id = "startBtn">START</button>
+                </div>
+                <br>
+                <div class = "timer"> Time Remaining: <span id = "timeLeft"></span></div>  
+            </div>
+            <div class = "questions">
+                <h1>1. What are the Dwarves in Middle Earth also known as?</h1>
+                    <input type = "radio" name = "Q1" value = "Durin's Folk"> Durin's Folk
+                    <input type = "radio" name = "Q1" value = "The Miners"> The Miners
+                    <input type = "radio" name = "Q1" value = "The Dúnedain"> Dúnedain
+                    <input type = "radio" name = "Q1" value = "The Great Eagles"> The Great Eagles
+                <h1>2. Which race was not involved in the Battle of Minas Tirith?</h1>
+                    <input type = "radio" name = "Q2" value = "The Easterlings"> The Easterlings
+                    <input type = "radio" name = "Q2" value = "The Men of Dale"> The Men of Dale
+                    <input type = "radio" name = "Q2" value = "The Men of Rohan"> The Men of Rohan
+                    <input type = "radio" name = "Q2" value = "Orcs"> Orcs
+                <h1>3. What are Morgul-wounds?</h1>
+                    <input type = "radio" name = "Q3" value = "Poison used by the orcs"> Poison used by the orcs 
+                    <input type = "radio" name = "Q3" value = "Wounds inflicted by the Nazgûl"> Wounds inflicted by the Nazgûl 
+                    <input type = "radio" name = "Q3" value = "Elves who lost their immortality"> Elves who lost their immortality 
+                    <input type = "radio" name = "Q3" value = "Venom from the Great Spider, Shelob"> Venom from the Great Spider, Shelob 
+                <h1>4. Where was the Fellowship of the Ring formed?</h1>
+                    <input type = "radio" name = "Q4" value = "Edoras"> Edoras
+                    <input type = "radio" name = "Q4" value = "Fangorn Forrest"> Fangorn Forrest
+                    <input type = "radio" name = "Q4" value = "Erebor"> Erebor
+                    <input type = "radio" name = "Q4" value = "Rivendell"> Rivendell
+                <h1>5. Where was the final battle of the War of the Rings in the book fought?</h1>
+                    <input type = "radio" name = "Q5" value = "On the slopes of Mount Doom"> On the slopes of Mount Doom 
+                    <input type = "radio" name = "Q5" value = "In the Shire"> In the Shire
+                    <input type = "radio" name = "Q5" value = "On the bordor of Mirkwood"> On the bordor of Mirkwood
+                    <input type = "radio" name = "Q5" value = "Inside Minas Morgul"> Inside Minas Morgul
+            </div>
+            <br>
+            <div class = "results">Results: <span id = "yourResults"></span></div>
+            <br>
+            <div class = "submit">
+                <button class = "button" id = "submitBtn">Submit</button>
+            </div>
+        </div>
+
+        <script type="text/javascript" src = "assets/javascript/app.js"></script>
+    </body>
+</html>
